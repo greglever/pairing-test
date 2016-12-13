@@ -3,7 +3,13 @@
 Please add your own ideas and make suggestions to this repo in the form of a PR as you see fit
 
 
+Run the following in the head of the repository after cloning it to your local machine:
 
+```
+python3 -m venv .env
+source ./.env/bin/activate
+pip install -r requirements.txt
+```
 
 
 Run the application locally: 
