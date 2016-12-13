@@ -16,8 +16,6 @@ def index():
 @app.route('/get-name-from-userid', methods=['GET'])
 def get_name_from_user_id():
     userId = int(request.args.get('userId', 0))
-    query = "SELECT name FROM users WHERE id = {userId}".format(userId=userId)
-    result = get_query_results(query)
-    return flask.jsonify({"name": result})
+    return flask.jsonify({"name": userId})
 
 app.run(debug=True)
