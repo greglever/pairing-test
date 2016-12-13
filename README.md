@@ -24,6 +24,7 @@ and have a browser window opened pointed to:
 http://localhost:5000
 ```
 
+and have `application.py` open.
 
 ###Get simple API output to work:
 1. returning a user's name based on sending userId with the URL
