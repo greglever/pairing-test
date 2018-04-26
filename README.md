@@ -34,7 +34,7 @@ How would we add this userId to the URL ?
 What could we do instead of `SELECT *` based on what we use for the output ?" 
 Add this in and send it back (A problem will occur here)
 Fix the problem and get the API working
-Would you do any refactoring of this code, put anything into functions or move anything around ? Why ?
+Would you do any refactoring of this code or put anything into functions or move anything around ? Why ?
 
 
 ### Create a simple analytics API endpoint: 
