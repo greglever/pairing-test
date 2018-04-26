@@ -28,7 +28,7 @@ and have `application.py` open.
 
 ###Get simple API output to work:
 1. returning a user's name based on sending userId with the URL
-How do we get *everything* from the `users` table for a given `id`
+How do we get absolutely *everything* from the `users` table for a given `id`
 Given this result is an object, how do we access the name attribute ?
 How would we add this userId to the URL ?
 What could we do instead of `SELECT *` based on what we use for the output ?" 
